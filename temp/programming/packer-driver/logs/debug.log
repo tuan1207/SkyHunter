@@ -1,0 +1,369 @@
+debug: Mon, 25 Mar 2024 02:52:37 GMT
+debug: Project: D:\Cocos Creator\Sky-Hunter\NewProject
+debug: Targets: editor,preview
+debug: Incremental file seems great.
+debug: Engine path: C:\ProgramData\cocos\editors\Creator\3.8.0\resources\resources\3d\engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Loading cache costs 32.88949999958277ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Loading cache costs 39.77249999996275ms.
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.0\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\Cocos Creator\\Sky-Hunter\\NewProject\\assets"
+  }
+]
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/"
+  }
+}
+debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/"
+  }
+}
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 15.815200000070035ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 17
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:11 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:12 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:38:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 22 2024 11:00:10 GMT+0700 (Indochina Time), Current mtime: Mon Mar 25 2024 09:52:25 GMT+0700 (Indochina Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/x/cc.
+debug: Resolve ./Plane from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/x/cc.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/x/cc.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/x/cc.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/x/cc.
+debug: Resolve ./Boss from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/x/cc.
+debug: Resolve ./Boss from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/x/cc.
+debug: Resolve ./Boss from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/x/cc.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/x/cc.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts.
+debug: Target(editor) ends with cost 301.0381000004709ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:38:53 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/code-quality/cr.mjs.
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Mar 22 2024 11:00:10 GMT+0700 (Indochina Time), Current mtime: Mon Mar 25 2024 09:52:25 GMT+0700 (Indochina Time)
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as cce:/internal/x/cc.
+debug: Resolve ./Plane from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as cce:/internal/x/cc.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as cce:/internal/x/cc.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as cce:/internal/x/cc.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as cce:/internal/x/cc.
+debug: Resolve ./Boss from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as cce:/internal/x/cc.
+debug: Resolve ./Boss from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as cce:/internal/x/cc.
+debug: Resolve ./Boss from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as cce:/internal/x/cc.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as cce:/internal/x/cc.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve ./AudioToggle from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as cce:/internal/x/cc.
+debug: Resolve ./GameCtrl from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts as cce:/internal/x/cc.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as cce:/internal/x/cc.
+debug: Resolve ./ButtonPlayScene from file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts.
+debug: Target(preview) ends with cost 217.69409999996424ms.
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 868.428399999626ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 17
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:17 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts.
+debug: Target(editor) ends with cost 197.1618999997154ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (Indochina Time), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (Indochina Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.0/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/AudioToggle.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Background.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss1.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss2.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Boss3.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Bullet.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/BulletE.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonMenuScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/ButtonPlayScene.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Enemy.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/GameCtrl.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Helicopter.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Item.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/JoyStick.ts.
+debug: Resolve file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos%20Creator/Sky-Hunter/NewProject/assets/scripts/Plane.ts.
+debug: Target(preview) ends with cost 63.17659999988973ms.
